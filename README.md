@@ -1,4 +1,4 @@
-# AI Reviews Are Biased Towards Weaknesses in the Appendix
+# AI Reviews Are Biased Towards the Appendix
 
 Official repository for the paper:
 
@@ -9,13 +9,13 @@ Official repository for the paper:
 
 ## Overview
 
-Large language models (LLMs) are increasingly used to draft conference-style reviews of research papers. This work studies which parts of a paper these reviews criticize. We generate 3,200 reviews for 800 papers from ACL 2026, EMNLP 2026, COLM 2026, and ICLR 2027 using four recent models, map every strength and weakness back to the section of the paper it refers to, and compare the result with human-written ICLR reviews from 2021 to 2024.
+Large language models (LLMs) are increasingly used to draft conference-style reviews of research papers. This work studies which parts of a paper these reviews criticize. We investigate a total of 2000 papers from ACL 2026, EMNLP 2026, COLM 2026, and ICLR 2027 using four recent models, map each strength and weakness to the paper section it refers to, and compare the results with human-written ICLR reviews from 2021 to 2024.
 
 ### Main Findings
 
 - The latest GPT and Claude models draw 50% or more of their weaknesses from appendix-related content, either alone or together with the main body.
 - The pattern holds across models, venues, and access methods (API, coding agent, and web interface).
-- Human reviewers draw 8.4% of their weaknesses from the appendix, compared with more than 61% for LLM reviewers on ICLR 2027 papers.
+- Human reviewers draw 8.4% of their weaknesses from the appendix, compared with 62% for LLM reviewers on ICLR 2027 papers.
 - Appendix criticism from LLMs concentrates on technical details, such as cross-checking numbers and requesting additional experiments, while human criticism of the appendix concerns the paper's framing and presentation.
 - The behavior is largely absent in an earlier model generation (GPT-5).
 
@@ -172,7 +172,7 @@ python scripts/human_review/weakness_location_result.py <citations_file>.jsonl
 
 ## Data Availability
 
-Paper PDFs are not included because of their size and because ICLR 2027 submissions are not public. The paper identifiers in each data file correspond to OpenReview submission IDs (ICLR, COLM) and ACL Anthology IDs (ACL, EMNLP), which can be used to retrieve the papers. Generated reviews were produced only to study model behavior and were not shared with authors or used in any real review process.
+The paper identifiers in each data file correspond to OpenReview submission IDs (ICLR, COLM) and ACL Anthology IDs (ACL, EMNLP), which can be used to retrieve the papers. We generated reviews only to study model behavior and did not share them with authors or use them in any real review process.
 
 ---
 
