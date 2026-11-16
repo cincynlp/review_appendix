@@ -1,9 +1,19 @@
 # AI Reviews Are Biased Towards the Appendix
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2611.17811"><img src="https://img.shields.io/badge/arXiv-2611.17811-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://github.com/cincynlp/review_appendix"><img src="https://img.shields.io/badge/GitHub-review__appendix-blue.svg" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-green.svg" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+</p>
+
+---
+
 Official repository for the paper:
 
-> **AI Reviews Are Biased Towards Weaknesses in the Appendix**
-> Paper: coming soon
+> **AI Reviews Are Biased Towards the Appendix**
+> Saptarshi Ghosh, Mohammad Saim, Tianyu Jiang
+> Paper: [arXiv:2611.17811](https://arxiv.org/abs/2611.17811)
 
 ---
 
@@ -178,12 +188,14 @@ The paper identifiers in each data file correspond to OpenReview submission IDs 
 
 ## Citation
 
-The paper is not yet published. Citation information will be added here.
+If you use this data, code, or findings in your research, please cite:
 
 ```bibtex
-@article{ai_reviews_appendix,
-  title  = {AI Reviews Are Biased Towards Weaknesses in the Appendix},
-  note   = {Coming soon}
+@article{ghosh2026appendix,
+  title   = {AI Reviews Are Biased Towards the Appendix},
+  author  = {Ghosh, Saptarshi and Saim, Mohammad and Jiang, Tianyu},
+  journal = {arXiv preprint arXiv:2611.17811},
+  year    = {2026}
 }
 ```
 
